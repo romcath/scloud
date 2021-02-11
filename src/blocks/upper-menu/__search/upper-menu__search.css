@@ -1,0 +1,11 @@
+.upper-menu__search {
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .upper-menu__search {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

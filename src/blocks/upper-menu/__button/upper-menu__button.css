@@ -1,0 +1,16 @@
+.upper-menu__button {
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  width: 16px;
+  height: 16px;
+  background: center / contain no-repeat url('../../../images/search-grey.svg');
+}
+
+@media screen and (max-width: 1200px) {
+  .upper-menu__button {
+    width: 10px;
+    height: 10px;
+    top: 9px;
+  }
+}

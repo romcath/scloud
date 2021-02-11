@@ -1,0 +1,30 @@
+.upper-menu__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6F6F6F;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.upper-menu__link::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 12px;
+  background: center / contain no-repeat;
+  margin-right: 8px;
+}
+
+.upper-menu__link:first-child::before {
+  background-image: url('../../../images/download-grey.svg');
+}
+
+.upper-menu__link:nth-child(2)::before {
+  background-image: url('../../../images/letter-grey.svg');
+}
+
+.upper-menu__link:nth-child(2) {
+  margin-right: 0;
+}

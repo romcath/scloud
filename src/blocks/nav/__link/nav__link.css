@@ -1,0 +1,8 @@
+.nav__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6F6F6F;
+  display: flex;
+  align-items: center;
+}

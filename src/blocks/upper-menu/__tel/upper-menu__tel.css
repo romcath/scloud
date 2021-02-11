@@ -1,0 +1,18 @@
+@media screen and (max-width: 1200px) {
+  .upper-menu__tel {
+    display: block;
+    margin: 0;
+    font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6F6F6F;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .upper-menu__tel {
+    display: none;
+  }
+}

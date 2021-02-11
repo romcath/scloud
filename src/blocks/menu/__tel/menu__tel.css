@@ -1,0 +1,12 @@
+.menu__tel {
+  margin: 0 40px 0 0;
+  font-size: 16px;
+  line-height: 21px;
+  color: #6F6F6F;
+}
+
+@media screen and (max-width: 1400px) {
+  .menu__tel {
+    display: none;
+  }
+}

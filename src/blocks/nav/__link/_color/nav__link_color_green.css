@@ -1,0 +1,7 @@
+.nav__link_color_green {
+  transition: color .3s ease-in;
+}
+
+.nav__link_color_green:hover {
+  color: #178A00;
+}

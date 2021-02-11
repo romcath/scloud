@@ -1,0 +1,13 @@
+.upper-menu__phone {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .upper-menu__phone {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: center / contain no-repeat url('../../../images/phone.svg');
+    margin-right: 30px;
+  }
+}

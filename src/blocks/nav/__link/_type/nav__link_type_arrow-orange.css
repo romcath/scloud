@@ -1,0 +1,12 @@
+.nav__link_type_arrow-orange::after {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: center / contain no-repeat url('../../../../images/arrow-black.svg');
+  margin-left: 8px;
+}
+
+.nav__link_type_arrow-orange:hover::after {
+  background-image: url('../../../../images/arrow-orange.svg');
+}

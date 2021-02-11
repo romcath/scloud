@@ -1,0 +1,9 @@
+.upper-menu__wrap {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .upper-menu__wrap {
+    display: flex;
+  }
+}

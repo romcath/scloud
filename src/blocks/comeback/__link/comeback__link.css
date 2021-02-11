@@ -1,0 +1,17 @@
+.comeback__link {
+  color: #6F6F6F;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.comeback__link::after {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: center / contain no-repeat url('../../../images/arrow-grey.svg');
+  margin-left: 8px;
+}

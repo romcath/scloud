@@ -1,0 +1,8 @@
+@media screen and (max-width: 1200px) {
+  .upper-menu__burger-menu {
+    display: block;
+    width: 20px;
+    height: 16px;
+    background: center / contain no-repeat url('../../../images/burger-menu.svg');
+  }
+}

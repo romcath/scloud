@@ -1,0 +1,16 @@
+.comeback__text {
+  color: #6F6F6F;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.comeback__text::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: center / contain no-repeat url('../../../images/close-grey.svg');
+  margin-left: 10px;
+}

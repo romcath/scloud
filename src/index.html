@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Сервис Клауд</title>
 </head>
-<body>
 
+<body>
+  <div class="root">
+    <header class="header">
+      <div class="comeback root__section">
+        <a href="#" target="_self" class="comeback__link link-hover">На прежнюю версию сайта</a>
+        <button class="button link-hover" type="button">
+          <span class="comeback__text">Закрыть</span>
+        </button>
+      </div>
+      <div class="upper-menu">
+        <div class="upper-menu__content root__section">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_color_green nav__link_type_arrow-green">О нас</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_color_green">Отзывы</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_color_green">FAQ</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_color_green">Техподдержка</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="upper-menu__container">
+            <a href="#" class="upper-menu__link link-hover">ПО для доступа в 1С</a>
+            <a href="#" class="upper-menu__link link-hover">Письмо директору</a>
+          </div>
+          <div class="upper-menu__search">
+            <form class="upper-menu__form" name="search" novalidate>
+              <input type="text" class="upper-menu__input" placeholder="Поиск по сайту" required>
+              <button type="submit" class="button upper-menu__button"></button>
+            </form>
+            <button class="button link-hover upper-menu__btn" type="button">
+              <span class="upper-menu__text" lang="en">rus</span>
+            </button>
+            <div class="upper-menu__wrap">
+              <p class="upper-menu__tel">+7 800 555-91-15</p>
+              <button class="button link-hover upper-menu__phone" type="button" aria-label="Позвонить"></button>
+              <button class="button link-hover upper-menu__burger-menu" type="button" aria-label="Меню"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu root__section">
+        <div class="menu__content">
+          <a href="/" class="logo link-hover">
+            <img src="<%=require('./images/logo.svg')%>" alt="Логотип СервисКлауд" class="logo__image">
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_font_m nav__link_color_green">Тарифы</a>
+              </li>
+              <li class="nav__item">
+                <a href="#"
+                  class="nav__link nav__link_font_m nav__link_color_green nav__link_type_arrow-green">Решения</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_font_m nav__link_color_green">Аренда сервера</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_font_m nav__link_color_green">Партнерам</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_font_m nav__link_color_green nav__link_type_arrow-green">База
+                  знаний</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__container">
+          <p class="menu__tel">+7 800 555-91-15</p>
+          <button class="button link-hover" type="button">
+            <span class="menu__text">Вход</span>
+          </button>
+          <button class="button link-hover menu__button" type="button">Регистрация</button>
+        </div>
+      </div>
+    </header>
+  </div>
 </body>
+
 </html>

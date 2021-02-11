@@ -1,0 +1,7 @@
+.root {
+  min-height: 100vh;
+  color: #333;
+  font-family: 'PT Sans', Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
