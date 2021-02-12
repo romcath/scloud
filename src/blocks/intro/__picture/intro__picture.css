@@ -1,0 +1,17 @@
+.intro__picture {
+  position: absolute;
+  top: 88px;
+  right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .intro__picture {
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__picture {
+    position: static;
+  }
+}

@@ -45,7 +45,7 @@
               <button type="submit" class="button upper-menu__button"></button>
             </form>
             <button class="button link-hover upper-menu__btn" type="button">
-              <span class="upper-menu__text" lang="en">rus</span>
+              <span class="button__text button__icon_type_after" lang="en">RUS</span>
             </button>
             <div class="upper-menu__wrap">
               <p class="upper-menu__tel">+7 800 555-91-15</p>
@@ -85,12 +85,40 @@
         <div class="menu__container">
           <p class="menu__tel">+7 800 555-91-15</p>
           <button class="button link-hover" type="button">
-            <span class="menu__text">Вход</span>
+            <span class="button__text button__icon_type_before">Вход</span>
           </button>
-          <button class="button link-hover menu__button" type="button">Регистрация</button>
+          <button class="button button_color_orange link-hover menu__button" type="button">Регистрация</button>
         </div>
       </div>
     </header>
+    <main class="content">
+      <section class="intro root__section">
+        <h1 class="intro__title">Арендуйте 1С в облаке у Сервиса №1 в России*</h1>
+        <blockquote class="intro__subtitle">*По данным исследования портала clouderp.ru за
+          2018 год в рейтинге онлайн&#8209;бухгалтерий среди продуктов, предоставляемыx на платформе 1С
+        </blockquote>
+        <div class="intro__content">
+          <ul class="intro__list">
+            <li class="intro__item">Комфортная и быстрая работа </li>
+            <li class="intro__item">Гарантии безопасности и надежности</li>
+            <li class="intro__item">Бесплатные обновления</li>
+            <li class="intro__item">Помощь на всех этапах работы с системой</li>
+          </ul>
+          <picture class="intro__picture">
+            <source srcset="<%=require('./images/main_530.png')%>" media="(max-width: 530px)">
+            <source srcset="<%=require('./images/main_360.png')%>" media="(max-width: 360px)">
+            <source srcset="<%=require('./images/main_310.png')%>" media="(max-width: 310px)">
+            <img src="<%=require('./images/main_530.png')%>" alt="Главное изображение" class="intro__image">
+          </picture>
+          <div class="intro__btn">
+            <button class="button link-hover button_color_orange link-hover" type="button">Попробовать 14 дней бесплатно</button>
+            <button class="button link-hover intro__button" type="button">
+              <span class="button__text button__icon_type_after">Получить консультацию</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
   </div>
 </body>
 

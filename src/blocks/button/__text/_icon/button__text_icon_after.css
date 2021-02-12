@@ -1,0 +1,14 @@
+.button__icon_type_after::after {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: center / contain no-repeat url('../../../../images/arrow-orange-bold.svg');
+  margin-left: 11px;
+}
+  
+@media screen and (max-width: 700px) {
+  .button__icon_type_after::after {
+    display: none;
+  }
+}

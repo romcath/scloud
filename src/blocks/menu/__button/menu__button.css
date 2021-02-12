@@ -1,18 +1,9 @@
 .menu__button {
-  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  border-radius: 45px;
-  background: #F76201;
-  padding: 15px 44px;
-  color: #fff;
   margin-left: 34px;
 }
 
 @media screen and (max-width: 700px) {
   .menu__button {
     margin-left: 14px;
-    padding: 10px 20px;
   }
 }

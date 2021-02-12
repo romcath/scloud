@@ -1,0 +1,27 @@
+.intro__image {
+  max-width: 640px;
+  height: 487px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1400px) {
+  .intro__image {
+    max-width: 440px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .intro__image {
+    max-width: 340px;
+    height: 245px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__image {
+    max-width: 320px;
+    height: 230px;
+    margin-bottom: 32px;
+  }
+}

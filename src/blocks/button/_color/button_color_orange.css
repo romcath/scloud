@@ -1,0 +1,16 @@
+.button_color_orange {
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 45px;
+  background: #F76201;
+  padding: 15px 44px;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .button_color_orange {
+    padding: 10px 20px;
+  }
+}

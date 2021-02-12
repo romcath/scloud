@@ -1,0 +1,29 @@
+.intro__title {
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  margin: 0;
+  max-width: 475px;
+}
+
+@media screen and (max-width: 1400px) {
+  .intro__title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .intro__title {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__title {
+    max-width: 90%;
+  }
+}

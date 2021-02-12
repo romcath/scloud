@@ -1,0 +1,14 @@
+.button__icon_type_before::before {
+  display: block;
+  content: '';
+  width: 18px;
+  height: 18px;
+  background: center / contain no-repeat url('../../../../images/login.svg');
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 700px) {
+  .button__icon_type_before::before {
+    display: none;
+  }
+}
