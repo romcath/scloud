@@ -1,0 +1,13 @@
+.card__header {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+@media screen and (max-width: 700px) {
+  .card__header {
+    width: 90%;
+  }
+}

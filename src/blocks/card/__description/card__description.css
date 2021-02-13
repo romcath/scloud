@@ -1,0 +1,17 @@
+.card__description {
+  font-size: 16px;
+  line-height: 60px;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  padding-left: 25px;
+}
+
+.card__description::after {
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #E4E4E4;;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

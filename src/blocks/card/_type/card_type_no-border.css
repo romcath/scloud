@@ -1,0 +1,11 @@
+.card_type_no-border {
+  box-shadow: none;
+  border: none;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1200px) {
+  .card_type_no-border {
+    display: none;
+  }
+}

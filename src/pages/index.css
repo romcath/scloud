@@ -50,3 +50,40 @@
 @import url('../blocks/intro/__btn/intro__btn.css');
 @import url('../blocks/intro/__button/intro__button.css');
 @import url('../blocks/intro/__image/intro__image.css');
+
+@import url('../blocks/content-title/content-title.css');
+
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/compare/compare.css');
+@import url('../blocks/compare/__card/compare__card.css');
+@import url('../blocks/compare/__content/compare__content.css');
+
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/_color/card_color_green.css');
+@import url('../blocks/card/_color/card_color_orange.css');
+@import url('../blocks/card/_type/card_type_no-border.css');
+@import url('../blocks/card/__header/card__header.css');
+@import url('../blocks/card/__icon/card__icon.css');
+@import url('../blocks/card/__cost/card__cost.css');
+@import url('../blocks/card/__cost/_color/card__cost_color_green.css');
+@import url('../blocks/card/__cost/_color/card__cost_color_orange.css');
+@import url('../blocks/card/__title/card__title.css');
+@import url('../blocks/card/__subtitle/card__subtitle.css');
+@import url('../blocks/card/__cost/card__cost.css');
+@import url('../blocks/card/__description/card__description.css');
+@import url('../blocks/card/__text-content/card__text-content.css');
+@import url('../blocks/card/__text-content/_hide/card__text-content_hide.css');
+@import url('../blocks/card/__text/card__text.css');
+@import url('../blocks/card/__text/_disabled/card__text_disabled.css');
+@import url('../blocks/card/__text/_enabled/card__text_enabled.css');
+@import url('../blocks/card/__text/_type/card__text_type_check.css');
+@import url('../blocks/card/__text/_type/card__text_type_dash.css');
+@import url('../blocks/card/__text/_color/card__text_color_green.css');
+@import url('../blocks/card/__text/_color/card__text_color_orange.css');
+@import url('../blocks/card/__text/_color/card__text_color_grey.css');
+@import url('../blocks/card/__text/_active/card__text_active.css');
+@import url('../blocks/card/__text/_color-icon/card__text_color-icon_orange.css');
+@import url('../blocks/card/__button/card__button.css');
+@import url('../blocks/card/__btn-text/card__btn-text.css');
+@import url('../blocks/card/__btn-text/_color/card__btn-text_color_orange.css');
+@import url('../blocks/card/__btn-text/_color/card__btn-text_color_green.css');

@@ -1,0 +1,3 @@
+.card__text_color-icon_orange::before {
+  background: center / contain no-repeat url('../../../../images/check-orange.svg');
+}

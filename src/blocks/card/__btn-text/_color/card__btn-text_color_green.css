@@ -1,0 +1,13 @@
+.card__btn-text_color_green {
+  color: #178A00;
+}
+
+.card__btn-text_color_green::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: center / contain no-repeat url('../../../../images/arrow-green-bold.svg');
+  margin-left: 10px;
+}
+

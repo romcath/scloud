@@ -1,0 +1,9 @@
+.card__text_disabled {
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .card__text_disabled {
+    display: none;
+  }
+}

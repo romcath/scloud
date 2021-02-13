@@ -4,3 +4,7 @@
   cursor: pointer;
   padding: 0;
 }
+
+button:active, button:focus {
+  outline: none;
+}
