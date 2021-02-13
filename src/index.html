@@ -111,7 +111,7 @@
             <img src="<%=require('./images/main_530.png')%>" alt="Главное изображение" class="intro__image">
           </picture>
           <div class="intro__btn">
-            <button class="button link-hover button_color_orange link-hover" type="button">Попробовать 14 дней
+            <button class="button link-hover button_color_orange" type="button">Попробовать 14 дней
               бесплатно</button>
             <button class="button link-hover intro__button" type="button">
               <span class="button__text button__icon_type_after">Получить консультацию</span>
@@ -205,6 +205,23 @@
             </li>
           </ul>
         </div>
+      </section>
+      <section class="experience root__section">
+        <h2 class="content-title">Попробовать 1С в облаке</h2>
+        <form class="form experience__form" name="experience" novalidate>
+          <div class="form__container">
+            <input type="text" class="form__input" placeholder="Имя&#9913;" required>
+            <input type="tel" class="form__input" placeholder="RU&#9913; +7" required>
+            <input type="email" class="form__input" placeholder="Email&#9913;" required>
+          </div>
+          <p class="form__description">&#9913; Поля обязательные для заполнения</p>
+          <div class="form__btn">
+            <button class="button link-hover button_color_orange form__button" type="submit">Попробовать 14 дней бесплатно</button>
+            <p class="form__description">При регистрации вы принимаете условия
+              <a href="#" class="form__link link-hover">оферты</a>
+            </p>
+          </div>
+        </form>
       </section>
     </main>
   </div>

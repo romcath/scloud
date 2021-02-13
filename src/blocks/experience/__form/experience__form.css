@@ -1,0 +1,15 @@
+.experience__form {
+  margin-top: 68px;
+}
+
+@media screen and (max-width: 1200px) {
+  .experience__form {
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .experience__form {
+    margin-top: 27px;
+  }
+}

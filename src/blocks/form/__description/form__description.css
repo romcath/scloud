@@ -1,0 +1,20 @@
+.form__description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 29px;
+  color: #6F6F6F;
+}
+
+@media screen and (max-width: 1200px) {
+  .form__description {
+    line-height: 20px;
+    max-width: 240px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form__description {
+    font-size: 12px;
+    max-width: 100%;
+  }
+}
