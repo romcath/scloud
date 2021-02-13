@@ -8,28 +8,32 @@ const cardTextGreenContairer = document.querySelector('.card__text-content_color
 
 const handleEnableTextOrange = () => {
   cardTextOrangeContairer.classList.remove('card__text-content_hide');
-  cardTextOrangeButton.textContent = 'Подробнее';
+  cardTextOrangeButton.textContent = 'Скрыть';
+  cardTextOrangeButton.dataset.elem = ' ';
   cardTextOrangeButton.removeEventListener('click', handleEnableTextOrange);
   cardTextOrangeButton.addEventListener('click', handleDisableTextOrange);
 };
 
 const handleDisableTextOrange = () => {
   cardTextOrangeContairer.classList.add('card__text-content_hide');
-  cardTextOrangeButton.textContent = 'Скрыть';
+  cardTextOrangeButton.textContent = 'Подробнее';
+  cardTextOrangeButton.dataset.elem = '';
   cardTextOrangeButton.removeEventListener('click', handleDisableTextOrange);
   cardTextOrangeButton.addEventListener('click', handleEnableTextOrange);
 };
 
 const handleEnableTextGreen = () => {
   cardTextGreenContairer.classList.remove('card__text-content_hide');
-  cardTextGreenButton.textContent = 'Подробнее';
+  cardTextGreenButton.textContent = 'Скрыть';
+  cardTextGreenButton.dataset.elem = ' ';
   cardTextGreenButton.removeEventListener('click', handleEnableTextGreen);
   cardTextGreenButton.addEventListener('click', handleDisableTextGreen);
 };
 
 const handleDisableTextGreen = () => {
   cardTextGreenContairer.classList.add('card__text-content_hide');
-  cardTextGreenButton.textContent = 'Скрыть';
+  cardTextGreenButton.textContent = 'Подробнее';
+  cardTextGreenButton.dataset.elem = '';
   cardTextGreenButton.removeEventListener('click', handleDisableTextGreen);
   cardTextGreenButton.addEventListener('click', handleEnableTextGreen);
 };
