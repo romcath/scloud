@@ -82,4 +82,12 @@
 .card__btn-text{font-family:PT Sans Caption,PT Sans,sans-serif;font-weight:700;font-size:14px;line-height:18px;align-items:center;display:none}@media screen and (max-width:700px){.card__btn-text{display:flex}}
 .card__btn-text_color_orange{color:#f76201}.card__btn-text_color_orange:after{content:attr(data-elem);display:block;width:10px;height:10px;background:50%/contain no-repeat url(e2cb3f02afca5864e979.svg);margin-left:10px;transform:rotate(180deg)}.card__btn-text_color_orange[data-elem=""]:after{transform:rotate(0deg)}.card__btn-text_color_orange[data-elem=" "]:after{transform:rotate(180deg)}
 .card__btn-text_color_green{color:#178a00}.card__btn-text_color_green:after{content:attr(data-elem);display:block;width:10px;height:10px;background:50%/contain no-repeat url(f0e1b44d761889a29ffc.svg);margin-left:10px;transform:rotate(180deg)}.card__btn-text_color_green[data-elem=""]:after{transform:rotate(0deg)}.card__btn-text_color_green[data-elem=" "]:after{transform:rotate(180deg)}
+.experience{padding-bottom:127px}@media screen and (max-width:1200px){.experience{padding-bottom:76px}}@media screen and (max-width:700px){.experience{padding-bottom:53px}}
+.experience__form{margin-top:68px}@media screen and (max-width:1200px){.experience__form{margin-top:22px}}@media screen and (max-width:700px){.experience__form{margin-top:27px}}
+.form__container{display:flex;justify-content:space-between}@media screen and (max-width:1200px){.form__container{flex-direction:column}}
+.form__input{width:384px;height:64px;border:1px solid #b6b6b6;box-sizing:border-box;border-radius:5px;padding-left:28px;color:#6f6f6f;font-size:16px;line-height:29px}.form__input:focus{outline:none}@media screen and (max-width:1400px){.form__input{width:315px;height:56px}}@media screen and (max-width:1200px){.form__input{width:100%;height:40px;margin-bottom:10px;font-size:14px}.form__input:last-child{margin-bottom:0}}
+.form__description{margin:0;font-size:14px;line-height:29px;color:#6f6f6f}@media screen and (max-width:1200px){.form__description{line-height:20px;max-width:240px}}@media screen and (max-width:700px){.form__description{font-size:12px;max-width:100%}}
+.form__btn{margin-top:33px;display:flex;align-items:center}@media screen and (max-width:700px){.form__btn{flex-direction:column;justify-content:center;margin-top:22px}}
+.form__button{margin-right:32px}@media screen and (max-width:700px){.form__button{margin-right:0;margin-bottom:16px}}
+.form__link{color:#f76201}
 
