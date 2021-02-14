@@ -1,0 +1,20 @@
+.list__image_size_m {
+  max-width: 585px;
+  object-position: bottom;
+}
+
+@media screen and (max-width: 1400px) {
+  .list__image_size_m {
+    max-width: 480px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .list__image_size_m {
+    max-width: 310px;
+    height: 180px;
+    object-position: left;
+    margin-top: 30px;
+  }
+}

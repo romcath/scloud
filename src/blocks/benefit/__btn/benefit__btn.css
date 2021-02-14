@@ -1,0 +1,41 @@
+.benefit__btn {
+  margin-top: 52px;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1400px) {
+  .benefit__btn {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 44px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .benefit__btn {
+    display: flex;
+    width: 650px;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    align-items: stretch;
+    margin-top: 36px;
+    scrollbar-width: none;
+  }
+
+  .benefit__btn::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .benefit__btn {
+    width: 410px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .benefit__btn {
+    width: 280px;
+  }
+}

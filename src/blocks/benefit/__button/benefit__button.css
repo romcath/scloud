@@ -1,0 +1,14 @@
+.benefit__button:last-child {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  .benefit__button {
+    margin-right: 10px;
+  }
+
+  .benefit__button:last-child {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}

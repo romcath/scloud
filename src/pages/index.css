@@ -7,6 +7,7 @@
 @import url('../blocks/button/__text/_icon/button__text_icon_after.css');
 @import url('../blocks/button/__text/_icon/button__text_icon_before.css');
 @import url('../blocks/button/_color/button_color_orange.css');
+@import url('../blocks/button/_color/button_color_grey.css');
 @import url('../blocks/root/__section/root__section.css');
 @import url('../blocks/comeback/comeback.css');
 @import url('../blocks/comeback/__link/comeback__link.css');
@@ -101,5 +102,13 @@
 
 @import url('../blocks/list/list.css');
 @import url('../blocks/list/__image/list__image.css');
+@import url('../blocks/list/__image/_size/list__image_size_m.css');
 @import url('../blocks/list/__list/list__list.css');
 @import url('../blocks/list/__item/list__item.css');
+@import url('../blocks/list/__item/_font/list__item_font_s.css');
+
+@import url('../blocks/benefit/benefit.css');
+@import url('../blocks/benefit/__list/benefit__list.css');
+@import url('../blocks/benefit/__btn/benefit__btn.css');
+@import url('../blocks/benefit/__subtitle/benefit__subtitle.css');
+@import url('../blocks/benefit/__button/benefit__button.css');

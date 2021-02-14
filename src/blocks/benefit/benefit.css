@@ -1,0 +1,16 @@
+.benefit {
+  padding-bottom: 139px;
+}
+
+@media screen and (max-width: 1400px) {
+  .benefit {
+    padding-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .benefit {
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+}

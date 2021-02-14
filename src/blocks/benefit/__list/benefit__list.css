@@ -1,0 +1,5 @@
+@media screen and (max-width: 1200px) {
+  .benefit__list {
+    flex-direction: column;
+  }
+}

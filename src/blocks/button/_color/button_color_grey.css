@@ -1,0 +1,18 @@
+.button_color_grey {
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 45px;
+  border: 2px solid #EAEAEA;
+  box-sizing: border-box;
+  padding: 15px 44px;
+  color: #333;
+}
+
+@media screen and (max-width: 1200px) {
+  .button_color_grey {
+    padding: 12px 34px;
+  }
+}
+

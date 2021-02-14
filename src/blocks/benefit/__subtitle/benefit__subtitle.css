@@ -1,0 +1,15 @@
+.benefit__subtitle {
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 0 64px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .benefit__subtitle {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+}
