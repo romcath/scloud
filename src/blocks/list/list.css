@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 1200px) {
+  .list {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .list {
+    flex-direction: column-reverse;
+  }
+}
