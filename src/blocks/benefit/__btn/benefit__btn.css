@@ -17,7 +17,6 @@
     width: 650px;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
-    align-items: stretch;
     margin-top: 36px;
     scrollbar-width: none;
   }
