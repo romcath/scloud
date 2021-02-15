@@ -1,0 +1,10 @@
+.pricing-plans {
+  padding-bottom: 122px;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricing-plans {
+    padding-bottom: 92px;
+    overflow: hidden;
+  }
+}

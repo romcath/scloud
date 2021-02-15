@@ -1,0 +1,8 @@
+.card__item_type_check-green::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 10px;
+  background: center / contain no-repeat url('../../../../images/check-green.svg');
+  margin-right: 10px;
+}

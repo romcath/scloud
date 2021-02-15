@@ -1,0 +1,11 @@
+.pricing-plans__span {
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  box-sizing: border-box;
+  border-radius: 21px;
+  margin-left: 10px;
+  padding: 2px 5px;
+}

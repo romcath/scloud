@@ -14,7 +14,7 @@
 @media screen and (max-width: 1200px) {
   .benefit__btn {
     display: flex;
-    width: 650px;
+    width: 640px;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     margin-top: 36px;

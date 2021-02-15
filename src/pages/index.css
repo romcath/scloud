@@ -4,10 +4,14 @@
 @import url('../blocks/link-hover/link-hover.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__text/button__text.css');
-@import url('../blocks/button/__text/_icon/button__text_icon_after.css');
+@import url('../blocks/button/__text/_icon/button__text_icon_after-orange.css');
+@import url('../blocks/button/__text/_icon/button__text_icon_after-green.css');
 @import url('../blocks/button/__text/_icon/button__text_icon_before.css');
+@import url('../blocks/button/__text/_color/button__text_color_green.css');
+@import url('../blocks/button/__text/_color/button__text_color_orange.css');
 @import url('../blocks/button/_color/button_color_orange.css');
 @import url('../blocks/button/_color/button_color_grey.css');
+@import url('../blocks/button/_color/button_color_green.css');
 @import url('../blocks/root/__section/root__section.css');
 @import url('../blocks/comeback/comeback.css');
 @import url('../blocks/comeback/__link/comeback__link.css');
@@ -84,10 +88,28 @@
 @import url('../blocks/card/__text/_color/card__text_color_grey.css');
 @import url('../blocks/card/__text/_active/card__text_active.css');
 @import url('../blocks/card/__text/_color-icon/card__text_color-icon_orange.css');
+@import url('../blocks/card/__text/_position/card__text_position_left.css');
 @import url('../blocks/card/__button/card__button.css');
 @import url('../blocks/card/__btn-text/card__btn-text.css');
 @import url('../blocks/card/__btn-text/_color/card__btn-text_color_orange.css');
 @import url('../blocks/card/__btn-text/_color/card__btn-text_color_green.css');
+@import url('../blocks/card/__heading/card__heading.css');
+@import url('../blocks/card/__price/card__price.css');
+@import url('../blocks/card/__price/_color/card__price_color_green.css');
+@import url('../blocks/card/__price/_color/card__price_color_orange.css');
+@import url('../blocks/card/__span/card__span.css');
+@import url('../blocks/card/__sign/card__sign.css');
+@import url('../blocks/card/__container/card__container.css');
+@import url('../blocks/card/__name/card__name.css');
+@import url('../blocks/card/__name/_color/card__name_color_green.css');
+@import url('../blocks/card/__name/_color/card__name_color_orange.css');
+@import url('../blocks/card/__list/card__list.css');
+@import url('../blocks/card/__item/card__item.css');
+@import url('../blocks/card/__item/_type/card__item_type_check-green.css');
+@import url('../blocks/card/__item/_type/card__item_type_check-orange.css');
+@import url('../blocks/card/__item/_type/card__item_type_dash-orange.css');
+@import url('../blocks/card/__item/_color/card__item_color_grey.css');
+@import url('../blocks/card/__offset/card__offset.css');
 
 @import url('../blocks/experience/experience.css');
 @import url('../blocks/experience/__form/experience__form.css');
@@ -112,3 +134,12 @@
 @import url('../blocks/benefit/__btn/benefit__btn.css');
 @import url('../blocks/benefit/__subtitle/benefit__subtitle.css');
 @import url('../blocks/benefit/__button/benefit__button.css');
+
+@import url('../blocks/pricing-plans/pricing-plans.css');
+@import url('../blocks/pricing-plans/__btn/pricing-plans__btn.css');
+@import url('../blocks/pricing-plans/__button/pricing-plans__button.css');
+@import url('../blocks/pricing-plans/__span/pricing-plans__span.css');
+@import url('../blocks/pricing-plans/__span/_color/pricing-plans__span_color_white.css');
+@import url('../blocks/pricing-plans/__span/_color/pricing-plans__span_color_orange.css');
+@import url('../blocks/pricing-plans/__header/pricing-plans__header.css');
+@import url('../blocks/pricing-plans/__card/pricing-plans__card.css');

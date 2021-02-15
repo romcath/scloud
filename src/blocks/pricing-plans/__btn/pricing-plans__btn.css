@@ -1,0 +1,41 @@
+.pricing-plans__btn {
+  margin: 53px 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricing-plans__btn {
+    display: flex;
+    width: 640px;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    justify-content: start;
+  }
+
+  .pricing-plans__btn::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pricing-plans__btn {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pricing-plans__btn {
+    width: 410px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .pricing-plans__btn {
+    width: 280px;
+    margin-top: 28px;
+    margin-bottom: 25px;
+  }
+}

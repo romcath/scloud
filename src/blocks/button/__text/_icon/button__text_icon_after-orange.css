@@ -1,4 +1,4 @@
-.button__icon_type_after::after {
+.button__text_icon_after-orange::after {
   display: block;
   content: '';
   width: 10px;
@@ -8,7 +8,7 @@
 }
   
 @media screen and (max-width: 700px) {
-  .button__icon_type_after::after {
+  .button__text_icon_after-orange::after {
     display: none;
   }
 }

@@ -1,0 +1,15 @@
+.card__container {
+  margin: 0;
+  position: relative;
+  width: 80%;
+  padding-top: 30px;
+}
+
+.card__container::after {
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #E4E4E4;;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

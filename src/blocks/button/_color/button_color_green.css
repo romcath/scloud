@@ -1,0 +1,16 @@
+.button_color_green {
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 45px;
+  background: linear-gradient(180deg, #40A800 0%, #178A00 100%);
+  padding: 15px 44px;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .button_color_green {
+    padding: 10px 20px;
+  }
+}

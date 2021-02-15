@@ -1,0 +1,17 @@
+.pricing-plans__card {
+  width: 588px;
+  padding: 60px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricing-plans__card {
+    padding-top: 40px;
+    width: 484px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pricing-plans__card {
+    width: 280px;
+  }
+}

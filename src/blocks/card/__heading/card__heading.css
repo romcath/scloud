@@ -1,0 +1,15 @@
+.card__heading {
+  margin: 0;
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1200px) {
+  .card__heading {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

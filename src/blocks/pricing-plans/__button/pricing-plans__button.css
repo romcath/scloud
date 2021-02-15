@@ -1,0 +1,15 @@
+.pricing-plans__button {
+  margin-right: 24px;
+}
+
+.pricing-plans__button:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricing-plans__button {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+}
