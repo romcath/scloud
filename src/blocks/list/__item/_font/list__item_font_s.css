@@ -9,9 +9,10 @@
   content: '';
   display: block;
   width: 20px;
-  height: 10px;
+  height: 11px;
   background: center / contain no-repeat url('../../../../images/check-orange.svg');
   margin-right: 10px;
+  flex-shrink: 0
 }
 
 @media screen and (max-width: 1200px) {

@@ -6,10 +6,11 @@
   content: attr(data-elem);
   display: block;
   width: 10px;
-  height: 10px;
+  height: 11px;
   background: center / contain no-repeat url('../../../../images/arrow-green-bold.svg');
   margin-left: 10px;
   transform: rotate(180deg);
+  flex-shrink: 0;
 }
 
 .card__btn-text_color_green[data-elem='']::after {

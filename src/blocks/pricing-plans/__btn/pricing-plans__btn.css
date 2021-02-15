@@ -22,19 +22,30 @@
 
 @media screen and (max-width: 700px) {
   .pricing-plans__btn {
-    width: 500px;
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pricing-plans__btn {
+    width: 440px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .pricing-plans__btn {
-    width: 410px;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .pricing-plans__btn {
+    width: 280px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .pricing-plans__btn {
-    width: 280px;
     margin-top: 28px;
     margin-bottom: 25px;
   }

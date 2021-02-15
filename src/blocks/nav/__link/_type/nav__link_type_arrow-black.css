@@ -1,0 +1,9 @@
+.nav__link_type_arrow-black::after {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 11px;
+  background: center / contain no-repeat url('../../../../images/arrow-black.svg');
+  margin-left: 8px;
+  flex-shrink: 0;
+}

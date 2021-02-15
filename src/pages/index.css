@@ -35,6 +35,8 @@
 @import url('../blocks/nav/__link/nav__link.css');
 @import url('../blocks/nav/__link/_type/nav__link_type_arrow-green.css');
 @import url('../blocks/nav/__link/_type/nav__link_type_arrow-orange.css');
+@import url('../blocks/nav/__link/_type/nav__link_type_arrow-grey.css');
+@import url('../blocks/nav/__link/_type/nav__link_type_arrow-black.css');
 @import url('../blocks/nav/__link/_font/nav__link_font_m.css');
 @import url('../blocks/nav/__link//_color/nav__link_color_green.css');
 @import url('../blocks/menu/menu.css');
@@ -136,6 +138,7 @@
 @import url('../blocks/benefit/__button/benefit__button.css');
 
 @import url('../blocks/pricing-plans/pricing-plans.css');
+@import url('../blocks/pricing-plans/__overflow/pricing-plans__overflow.css');
 @import url('../blocks/pricing-plans/__btn/pricing-plans__btn.css');
 @import url('../blocks/pricing-plans/__button/pricing-plans__button.css');
 @import url('../blocks/pricing-plans/__span/pricing-plans__span.css');

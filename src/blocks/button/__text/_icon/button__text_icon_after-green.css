@@ -2,7 +2,8 @@
   display: block;
   content: '';
   width: 10px;
-  height: 10px;
+  height: 11px;
   background: center / contain no-repeat url('../../../../images/arrow-green-bold.svg');
   margin-left: 11px;
+  flex-shrink: 0;
 }

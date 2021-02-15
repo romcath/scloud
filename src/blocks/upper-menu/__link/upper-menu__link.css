@@ -6,6 +6,7 @@
   margin-right: 30px;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .upper-menu__link::before {

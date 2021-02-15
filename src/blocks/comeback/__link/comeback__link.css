@@ -11,7 +11,8 @@
   display: block;
   content: '';
   width: 10px;
-  height: 10px;
+  height: 11px;
   background: center / contain no-repeat url('../../../images/arrow-grey.svg');
   margin-left: 8px;
+  flex-shrink: 0;
 }

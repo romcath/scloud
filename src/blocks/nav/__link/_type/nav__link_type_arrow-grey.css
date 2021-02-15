@@ -1,0 +1,10 @@
+.nav__link_type_arrow-grey::after {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 11px;
+  background: center / contain no-repeat url('../../../../images/arrow-grey.svg');
+  margin-left: 8px;
+  transform: rotate(90deg);
+  flex-shrink: 0;
+}

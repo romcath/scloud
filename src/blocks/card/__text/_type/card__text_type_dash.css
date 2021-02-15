@@ -2,7 +2,8 @@
   content: '';
   display: block;
   width: 16px;
-  height: 10px;
+  height: 11px;
   background: center / contain no-repeat url('../../../../images/dash-orange.svg');
   margin-right: 10px;
+  flex-shrink: 0;
 }
