@@ -5,6 +5,7 @@
 
 @import url('../blocks/link/link.css');
 @import url('../blocks/link/_color/link_color_orange.css');
+@import url('../blocks/link/_disabled/link_disabled.css');
 @import url('../blocks/link-hover/link-hover.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__text/button__text.css');
@@ -164,3 +165,17 @@
 @import url('../blocks/service/__text/service__text.css');
 @import url('../blocks/service/__btn/service__btn.css');
 @import url('../blocks/service/__button/service__button.css');
+
+@import url('../blocks/begin/begin.css');
+@import url('../blocks/steps/steps.css');
+@import url('../blocks/step/step.css');
+@import url('../blocks/step/_type/step_type_download.css');
+@import url('../blocks/step/_type/step_type_login.css');
+@import url('../blocks/step/_type/step_type_tutorial.css');
+@import url('../blocks/step/__button/step__button.css');
+@import url('../blocks/step/__button/_color/step__button_color_grey.css');
+@import url('../blocks/step/__button/_color/step__button_color_orange.css');
+@import url('../blocks/step/__title/step__title.css');
+@import url('../blocks/step/__text/step__text.css');
+@import url('../blocks/step/__btn/step__btn.css');
+@import url('../blocks/step/__container/step__container.css');

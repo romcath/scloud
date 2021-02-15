@@ -1,0 +1,21 @@
+.begin {
+  padding-bottom: 162px;
+}
+
+@media screen and (max-width: 1400px) {
+  .begin {
+    padding-bottom: 112px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .begin {
+    padding-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .begin {
+    padding-bottom: 50px;
+  }
+}

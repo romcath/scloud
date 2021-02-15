@@ -1,0 +1,21 @@
+.step__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 155px;
+  justify-content: end;
+}
+
+@media screen and (max-width: 1200px) {
+  .step__btn {
+    min-height: 0;
+    justify-content: start;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .step__btn {
+    margin-right: 0;
+  }
+}

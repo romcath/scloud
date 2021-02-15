@@ -1,0 +1,9 @@
+.link_disabled {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .link_disabled {
+    display: flex;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 1200px) {
+  .step_type_tutorial {
+    order: 4;
+  }
+}
