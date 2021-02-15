@@ -4,6 +4,7 @@
 .root__section{max-width:1200px;margin:0 auto}@media screen and (max-width:1400px){.root__section{max-width:990px}}@media screen and (max-width:1200px){.root__section{max-width:640px}}@media screen and (max-width:700px){.root__section{width:90%}}
 .link{font-family:PT Sans Caption,PT Sans,sans-serif;font-style:normal;font-weight:700;font-size:14px;line-height:18px;display:flex;align-items:center}
 .link_color_orange{color:#f76201}.link_color_orange:after{content:"";display:block;width:10px;height:5px;background:50%/contain no-repeat url(e2cb3f02afca5864e979.svg);margin-left:10px;flex-shrink:0;transform:rotate(-90deg)}
+.link_disabled{display:none}@media screen and (max-width:1200px){.link_disabled{display:flex}}
 .link-hover{transition:opacity .3s ease-in}.link-hover:hover{opacity:.8}
 .button{border:0;background-color:transparent;cursor:pointer;padding:0}button:active,button:focus{outline:none}
 .button__text{font-family:PT Sans Caption,PT Sans,sans-serif;font-weight:700;font-size:14px;line-height:18px;padding:0;display:flex;align-items:center}
@@ -147,4 +148,17 @@
 .service__text{margin:23px 0 30px;font-style:normal;font-weight:400;font-size:16px;line-height:24px}
 .service__btn{display:none}@media screen and (max-width:1200px){.service__btn{display:block}}@media screen and (max-width:700px){.service__btn{display:flex;justify-content:center;align-items:center;margin-top:18px}}
 .service__button{margin-top:18px;margin-left:30px}@media screen and (max-width:700px){.service__button{margin-top:0;margin-left:0}}
+.begin{padding-bottom:162px}@media screen and (max-width:1400px){.begin{padding-bottom:112px}}@media screen and (max-width:1200px){.begin{padding-bottom:45px}}@media screen and (max-width:700px){.begin{padding-bottom:50px}}
+.steps{padding:0;list-style:none;margin:65px 0 0;display:flex;justify-content:space-between}@media screen and (max-width:1200px){.steps{flex-wrap:wrap}}@media screen and (max-width:700px){.steps{margin-top:30px;justify-content:center}}
+.step{width:200px}@media screen and (max-width:1200px){.step{width:280px;display:flex;align-items:baseline;margin-bottom:50px}}@media screen and (max-width:700px){.step{display:block;margin-bottom:38px}}
+@media screen and (max-width:1200px){.step_type_download{order:3}}@media screen and (max-width:700px){.step_type_download{order:2}}
+@media screen and (max-width:1200px){.step_type_login{order:2}}@media screen and (max-width:700px){.step_type_login{order:3}}
+@media screen and (max-width:1200px){.step_type_tutorial{order:4}}
+.step__button{width:50px;height:35px;margin-bottom:40px}@media screen and (max-width:1200px){.step__button{display:none}}
+.step__button_color_grey{background:50%/contain no-repeat url(650edcec993da40639bd.svg)}
+.step__button_color_orange{height:81px;background:50%/contain no-repeat url(d93a74aad2cba605d20a.svg)}
+.step__title{margin:0;font-family:PT Sans Caption,PT Sans,sans-serif;font-style:normal;font-weight:700;font-size:32px;line-height:41px}@media screen and (max-width:700px){.step__title{font-size:20px;line-height:26px}}
+.step__text{margin:20px 0 25px;font-size:20px;line-height:28px;text-align:center}@media screen and (max-width:1200px){.step__text{font-size:16px;margin-top:0;margin-bottom:17px;max-width:115px;text-align:left}}@media screen and (max-width:700px){.step__text{margin-top:5px;margin-bottom:17px;text-align:center}}
+.step__btn{display:flex;flex-direction:column;align-items:center;min-height:155px;justify-content:end}@media screen and (max-width:1200px){.step__btn{min-height:0;justify-content:start;margin-right:10px}}@media screen and (max-width:700px){.step__btn{margin-right:0}}
+.step__container{display:flex;flex-direction:column;align-items:center}@media screen and (max-width:1200px){.step__container{align-items:flex-start}}@media screen and (max-width:700px){.step__container{align-items:center}}
 
