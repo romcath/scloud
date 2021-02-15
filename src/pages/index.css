@@ -1,6 +1,10 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
 @import url('../blocks/root/root.css');
+@import url('../blocks/root/__section/root__section.css');
+
+@import url('../blocks/link/link.css');
+@import url('../blocks/link/_color/link_color_orange.css');
 @import url('../blocks/link-hover/link-hover.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__text/button__text.css');
@@ -12,10 +16,11 @@
 @import url('../blocks/button/_color/button_color_orange.css');
 @import url('../blocks/button/_color/button_color_grey.css');
 @import url('../blocks/button/_color/button_color_green.css');
-@import url('../blocks/root/__section/root__section.css');
+
 @import url('../blocks/comeback/comeback.css');
 @import url('../blocks/comeback/__link/comeback__link.css');
 @import url('../blocks/comeback/__text/comeback__text.css');
+
 @import url('../blocks/upper-menu/upper-menu.css');
 @import url('../blocks/upper-menu/__content/upper-menu__content.css');
 @import url('../blocks/upper-menu/__container/upper-menu__container.css');
@@ -29,6 +34,7 @@
 @import url('../blocks/upper-menu/__burger-menu/upper-menu__burger-menu.css');
 @import url('../blocks/upper-menu/__phone/upper-menu__phone.css');
 @import url('../blocks/upper-menu/__tel/upper-menu__tel.css');
+
 @import url('../blocks/nav/nav.css');
 @import url('../blocks/nav/__list/nav__list.css');
 @import url('../blocks/nav/__item/nav__item.css');
@@ -39,6 +45,7 @@
 @import url('../blocks/nav/__link/_type/nav__link_type_arrow-black.css');
 @import url('../blocks/nav/__link/_font/nav__link_font_m.css');
 @import url('../blocks/nav/__link//_color/nav__link_color_green.css');
+
 @import url('../blocks/menu/menu.css');
 @import url('../blocks/menu/__content/menu__content.css');
 @import url('../blocks/menu/__container/menu__container.css');
@@ -146,3 +153,14 @@
 @import url('../blocks/pricing-plans/__span/_color/pricing-plans__span_color_orange.css');
 @import url('../blocks/pricing-plans/__header/pricing-plans__header.css');
 @import url('../blocks/pricing-plans/__card/pricing-plans__card.css');
+
+@import url('../blocks/quickly/quickly.css');
+
+@import url('../blocks/services/services.css');
+@import url('../blocks/service/service.css');
+@import url('../blocks/service/__content/service__content.css');
+@import url('../blocks/service/__image/service__image.css');
+@import url('../blocks/service/__title/service__title.css');
+@import url('../blocks/service/__text/service__text.css');
+@import url('../blocks/service/__btn/service__btn.css');
+@import url('../blocks/service/__button/service__button.css');

@@ -1,0 +1,14 @@
+.link_color_orange {
+  color: #F76201;
+}
+
+.link_color_orange::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 5px;
+  background: center / contain no-repeat url('../../../images/arrow-orange-bold.svg');
+  margin-left: 10px;
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+}

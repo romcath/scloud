@@ -1,0 +1,18 @@
+.service__btn {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .service__btn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .service__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+  }
+}

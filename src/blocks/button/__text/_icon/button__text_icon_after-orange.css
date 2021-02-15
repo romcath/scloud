@@ -7,9 +7,3 @@
   margin-left: 11px;
   flex-shrink: 0;
 }
-  
-@media screen and (max-width: 700px) {
-  .button__text_icon_after-orange::after {
-    display: none;
-  }
-}

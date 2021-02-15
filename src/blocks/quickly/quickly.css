@@ -1,0 +1,21 @@
+.quickly {
+  padding-bottom: 147px;
+}
+
+@media screen and (max-width: 1400px) {
+  .quickly {
+    padding-bottom: 190px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .quickly {
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .quickly {
+    padding-bottom: 57px;
+  }
+}

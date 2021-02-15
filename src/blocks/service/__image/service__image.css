@@ -1,0 +1,13 @@
+.service__image {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 35px;
+}
+
+@media screen and (max-width: 700px) {
+  .service__image {
+    margin-right: 24px;
+  }
+}
