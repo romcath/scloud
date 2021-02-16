@@ -1,0 +1,19 @@
+.footer {
+  padding-top: 64px;
+  position: relative;
+}
+
+.footer::after {
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #C0C0C0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding-top: 40px;
+  }
+}

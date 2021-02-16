@@ -1,0 +1,12 @@
+.footer-column__title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-column__title {
+    display: none;
+  }
+}

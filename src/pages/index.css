@@ -11,9 +11,11 @@
 @import url('../blocks/button/__text/button__text.css');
 @import url('../blocks/button/__text/_icon/button__text_icon_after-orange.css');
 @import url('../blocks/button/__text/_icon/button__text_icon_after-green.css');
+@import url('../blocks/button/__text/_icon/button__text_icon_after-black.css');
 @import url('../blocks/button/__text/_icon/button__text_icon_before.css');
 @import url('../blocks/button/__text/_color/button__text_color_green.css');
 @import url('../blocks/button/__text/_color/button__text_color_orange.css');
+@import url('../blocks/button/__text/_color/button__text_color_black.css');
 @import url('../blocks/button/_color/button_color_orange.css');
 @import url('../blocks/button/_color/button_color_grey.css');
 @import url('../blocks/button/_color/button_color_green.css');
@@ -179,3 +181,15 @@
 @import url('../blocks/step/__text/step__text.css');
 @import url('../blocks/step/__btn/step__btn.css');
 @import url('../blocks/step/__container/step__container.css');
+
+@import url('../blocks/footer/footer.css');
+
+@import url('../blocks/footer-column/footer-column.css');
+@import url('../blocks/footer-column/__navigation/footer-column__navigation.css');
+@import url('../blocks/footer-column/__title/footer-column__title.css');
+@import url('../blocks/footer-column/__list/footer-column__list.css');
+@import url('../blocks/footer-column/__list/_hide/footer-column__list_hide.css');
+@import url('../blocks/footer-column/__item/footer-column__item.css');
+@import url('../blocks/footer-column/__button/footer-column__button.css');
+@import url('../blocks/footer-column/__link/footer-column__link.css');
+@import url('../blocks/footer-column/__btn/footer-column__btn.css');
