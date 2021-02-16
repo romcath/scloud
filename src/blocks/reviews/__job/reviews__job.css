@@ -1,0 +1,16 @@
+.reviews__job {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 48px;
+  color: #999;
+}
+
+@media screen and (max-width: 1200px) {
+  .reviews__job {
+    font-size: 16px;
+  }
+}

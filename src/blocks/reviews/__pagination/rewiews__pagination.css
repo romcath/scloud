@@ -1,0 +1,6 @@
+.rewiews__pagination {
+  max-width: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}

@@ -1,0 +1,14 @@
+.about__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 700px) {
+  .about__list {
+    justify-content: center;
+  }
+}

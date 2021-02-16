@@ -1,0 +1,15 @@
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+  margin-bottom: 118px;
+}
+
+@media screen and (max-width: 1200px) {
+  .about__container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23px;
+    margin-bottom: 51px;
+  }
+}

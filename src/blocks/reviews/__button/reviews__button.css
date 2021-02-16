@@ -1,0 +1,31 @@
+.reviews__button {
+  border: 2px solid #F76201;
+  box-sizing: border-box;
+  border-radius: 45px;
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  color: #FF6500;
+  padding: 15px 23px;
+  display: flex;
+  align-items: center;
+}
+
+.reviews__button::after {
+  content: '';
+  display: block;
+  width: 9px;
+  height: 9px;
+  background: center / contain no-repeat url('../../../images/triangle.svg');
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .reviews__button{
+    justify-content: center;
+    width: 100%;
+  }
+}

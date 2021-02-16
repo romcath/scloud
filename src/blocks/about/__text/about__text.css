@@ -1,0 +1,20 @@
+.about__text {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .about__text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about__text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,11 @@
+.reviews__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .reviews__text {
+    margin-top: 23px;
+  }
+}
