@@ -188,3 +188,25 @@
 .lower-footer__link{text-decoration:none;font-size:14px;line-height:18px;color:#333;display:flex;align-items:center}.lower-footer__link:before{display:block;content:"";width:14px;height:14px;background:50%/contain no-repeat url(f2fd1379866ce6ae4f55.svg);margin-right:8px;flex-shrink:0}@media screen and (max-width:700px){.lower-footer__link{display:none}}
 .lower-footer__copyright{margin:0;font-size:14px;line-height:18px}
 
+.about__container{display:flex;justify-content:space-between;margin-top:46px;margin-bottom:118px}@media screen and (max-width:1200px){.about__container{flex-direction:column;align-items:center;margin-top:23px;margin-bottom:51px}}
+.about__list{margin:0;padding:0;list-style:none;display:flex;justify-content:space-between;flex-wrap:wrap}@media screen and (max-width:700px){.about__list{justify-content:center}}
+.about__item{max-width:250px;margin-bottom:40px}
+.about__title{margin:0 0 10px;font-family:PT Sans Caption,PT Sans,sans-serif;font-style:normal;font-weight:700;font-size:32px;line-height:56px;color:#178a00}@media screen and (max-width:700px){.about__title{text-align:center;font-size:24px;line-height:32px}}
+.about__text{font-size:20px;line-height:30px;margin:0}@media screen and (max-width:1400px){.about__text{font-size:18px;line-height:28px}}@media screen and (max-width:700px){.about__text{font-size:16px;line-height:20px;text-align:center}}
+.about__image{max-width:560px;height:366px;-o-object-fit:contain;object-fit:contain;-o-object-position:center;object-position:center}@media screen and (max-width:1400px){.about__image{max-width:460px}}@media screen and (max-width:700px){.about__image{max-width:280px;height:187px}}
+@media screen and (max-width:700px){.about__link{display:none}}
+.reviews{padding-bottom:100px}@media screen and (max-width:1400px){.reviews{padding-bottom:63px}}@media screen and (max-width:1200px){.reviews{padding-bottom:70px}}@media screen and (max-width:700px){.reviews{padding-bottom:64px}}
+.reviews__cards{margin:0 0 30px;padding:0;list-style:none;display:flex;justify-content:space-between}
+.reviews__card{max-width:588px;box-shadow:0 0 50px rgba(0,0,0,.1);border-radius:10px;padding:48px 63px;box-sizing:border-box}@media screen and (max-width:1400px){.reviews__card{max-width:480px;padding:39px 48px}}@media screen and (max-width:1200px){.reviews__card{max-width:100%}.reviews__card:nth-of-type(2){display:none}}@media screen and (max-width:700px){.reviews__card{padding:31px 16px}}
+.reviews__about{display:flex;justify-content:space-between}
+.reviews__name{margin:0;font-family:PT Sans Caption,PT Sans,sans-serif;font-style:normal;font-weight:700;font-size:20px;line-height:26px}@media screen and (max-width:1200px){.reviews__name{font-size:16px;line-height:21px}}
+.reviews__job{margin:0;text-transform:uppercase;font-family:PT Sans Caption,PT Sans,sans-serif;font-style:normal;font-weight:700;font-size:20px;line-height:48px;color:#999}@media screen and (max-width:1200px){.reviews__job{font-size:16px}}
+.reviews__image{width:80px;height:80px;border-radius:50%;-o-object-position:center;object-position:center;-o-object-fit:contain;object-fit:contain}
+.reviews__text{font-size:16px;line-height:24px;margin:30px 0}@media screen and (max-width:1200px){.reviews__text{margin-top:23px}}
+.reviews__button{border:2px solid #f76201;box-sizing:border-box;border-radius:45px;font-family:PT Sans Caption,PT Sans,sans-serif;font-style:normal;font-weight:700;font-size:13px;line-height:17px;color:#ff6500;padding:15px 23px;display:flex;align-items:center}.reviews__button:after{content:"";display:block;width:9px;height:9px;background:50%/contain no-repeat url(a9b4fda9cc5516094b00.svg);margin-left:10px;flex-shrink:0}@media screen and (max-width:1200px){.reviews__button{justify-content:center;width:100%}}
+.rewiews__pagination{max-width:90px;display:flex;justify-content:space-between;margin:auto}
+.rewiews__btn{border-radius:50%;width:10px;height:10px}
+.rewiews__btn_color_orange{background-color:#f76201}
+.rewiews__btn_color_grey{background-color:#999}
+@media screen and (max-width:700px){.rewiews__link{display:flex;justify-content:center;margin-top:30px}}
+
