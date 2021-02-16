@@ -56,6 +56,7 @@
 @import url('../blocks/menu/__button/menu__button.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/__image/logo__image.css');
+@import url('../blocks/logo/__image/_footer/logo__image_footer.css');
 
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__title/intro__title.css');
@@ -193,3 +194,18 @@
 @import url('../blocks/footer-column/__button/footer-column__button.css');
 @import url('../blocks/footer-column/__link/footer-column__link.css');
 @import url('../blocks/footer-column/__btn/footer-column__btn.css');
+
+@import url('../blocks/contact/contact.css');
+@import url('../blocks/contact/__tel/contact__tel.css');
+@import url('../blocks/contact/__address/contact__address.css');
+@import url('../blocks/contact/__social/contact__social.css');
+@import url('../blocks/contact/__image/contact__image.css');
+@import url('../blocks/contact/__app/contact__app.css');
+@import url('../blocks/contact/__image-app/contact__image-app.css');
+@import url('../blocks/contact/__icon/contact__icon.css');
+@import url('../blocks/contact/__content/contact__content.css');
+
+@import url('../blocks/lower-footer/lower-footer.css');
+@import url('../blocks/lower-footer/__content/lower-footer__content.css');
+@import url('../blocks/lower-footer/__link/lower-footer__link.css');
+@import url('../blocks/lower-footer/__copyright/lower-footer__copyright.css');

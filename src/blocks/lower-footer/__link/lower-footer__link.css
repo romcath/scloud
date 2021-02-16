@@ -1,0 +1,24 @@
+.lower-footer__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.lower-footer__link::before {
+  display: block;
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: center / contain no-repeat url('../../../images/download-black.svg');
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .lower-footer__link {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.contact__tel {
+  font-family: 'PT Sans Caption', 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 0 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .contact__tel {
+    text-align: center;
+  }
+}

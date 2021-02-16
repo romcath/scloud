@@ -1,0 +1,13 @@
+.lower-footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+}
+
+@media screen and (max-width: 700px) {
+  .lower-footer__content {
+    min-height: 48px;
+    justify-content: center;
+  }
+}

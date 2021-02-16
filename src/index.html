@@ -319,7 +319,7 @@
                 <button class="button link-hover" type="button">
                   <span class="button__text button__text_color_orange button__text_icon_after-orange">Показать еще</span>
                 </button>
-                <button class="button link-hover button_color_orange card__offset" type="type">Попробовать 14 дней бесплатно</button>
+                <button class="button link-hover button_color_orange card__offset" type="button">Попробовать 14 дней бесплатно</button>
               </div>
             </li>
           </ul>
@@ -473,8 +473,8 @@
         </form>
       </section>
     </main>
-    <footer class="footer root__section">
-      <div class="footer-column">
+    <footer class="footer">
+      <div class="footer-column root__section">
         <nav class="footer-column__navigation">
           <h4 class="footer-column__title">Типовые решения</h4>
           <button class="button link-hover footer-column__button" type="button">
@@ -570,6 +570,66 @@
             <span class="button__text button__text_color_orange button__text_icon_after-orange footer-column__btn">Показать еще</span>
           </button>
         </nav>
+      </div>
+      <div class="contact root__section">
+        <div class="contact__content">
+          <a href="/" class="logo link-hover">
+            <img src="<%=require('./images/logo.svg')%>" alt="Логотип СервисКлауд" class="logo__image logo__image_footer">
+          </a>
+          <div class="contact__container">
+            <p class="contact__tel">8 800 555-91-15</p>
+            <p class="contact__address">111024, г. Москва, ул. Авиамоторная, 69
+            <p class="contact__address">300028, г. Тула, ул. Болдина, 98
+              </p>
+          </div>
+        </div>
+        <div class="contact__icon">
+          <ul class="contact__social">
+            <li>
+              <a href="#" class="link-hover">
+                <img src="<%=require('./images/inst.svg')%>" alt="Инстаграм" class="contact__image">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link-hover">
+                <img src="<%=require('./images/fb.svg')%>" alt="Фейсбук" class="contact__image">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link-hover">
+                <img src="<%=require('./images/vk.svg')%>" alt="Вконтакте" class="contact__image">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link-hover">
+                <img src="<%=require('./images/ok.svg')%>" alt="Одноклассники" class="contact__image">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link-hover">
+                <img src="<%=require('./images/youtube.svg')%>" alt="Ютуб" class="contact__image">
+              </a>
+            </li>
+          </ul>
+          <ul class="contact__app">
+            <li>
+              <a href="#" class="link-hover">
+                <img src="<%=require('./images/app-store.svg')%>" alt="Апстор" class="contact__image-app">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link-hover">
+                <img src="<%=require('./images/google-play.svg')%>" alt="Гуглплей" class="contact__image-app">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="lower-footer">
+        <div class="lower-footer__content root__section">
+          <a href="#" target="_self" class="lower-footer__link link-hover">Оферта и политика конфиденциальности</a>
+          <p class="lower-footer__copyright">&copy; 2019 scloud.ru ООО "СервисКлауд"</p>
+        </div>
       </div>
     </footer>
   </div>

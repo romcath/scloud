@@ -1,0 +1,17 @@
+.contact__icon {
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact__icon {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact__icon {
+    flex-direction: column;
+    align-items: center;
+  }
+}
